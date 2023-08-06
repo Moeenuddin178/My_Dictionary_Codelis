@@ -1,0 +1,25 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_speak"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_speak"
+        android:title="Speak"/>
+    <item
+        android:id="@+id/action_favorites"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_favorites_outline"
+        android:title="Favorites"/>
+    
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share"
+        android:title="Share"/>
+
+</menu>

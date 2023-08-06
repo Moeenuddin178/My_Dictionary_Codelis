@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_original">
+        <item
+            android:id="@+id/nav_translate"
+            android:icon="@drawable/languages"
+            android:title="@string/str_nav_translate" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/star"
+            android:title="@string/str_nav_favorites"
+            app:actionLayout="@layout/menu_counter"/>
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_original_2">
+        <item
+            android:id="@+id/nav_more_app"
+            android:icon="@drawable/ellipsis"
+            android:title="@string/str_nav_more_apps" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="@string/str_nav_setting" />
+    </group>
+
+    <item android:title="New Data">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_add"
+                    android:icon="@drawable/add"
+                    android:title="@string/str_nav_add" />
+
+                <item
+                    android:id="@+id/nav_my_word"
+                    android:icon="@drawable/checklist"
+                    android:title="@string/str_nav_my_word"
+                    app:actionLayout="@layout/menu_counter"/>
+            </group>
+        </menu>
+    </item>
+</menu>

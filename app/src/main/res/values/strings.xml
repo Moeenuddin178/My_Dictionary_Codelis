@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Dictionary</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Replace with your more apps URL -->
+    <string name="more_app_url">http://portfolio.dream-space.web.id/</string>
+
+    <!-- Replace with your Admob Publisher Id. -->
+    <string name="publisher_id">pub-0000000000000000</string>
+
+    <!-- Replace with your Privacy Policy Url. -->
+    <string name="privacy_policy_url">
+        http://dream-space.web.id/
+    </string>
+
+    <!--Edit with your admob app id-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~6300978111</string>
+
+    <!-- Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!--Replace with your own interstitial ad unit id. -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="str_nav_translate">Translate</string>
+    <string name="str_nav_favorites">Favorites</string>
+    <string name="str_nav_add">Add Word</string>
+    <string name="str_nav_my_word">My Word List</string>
+    <string name="str_nav_more_apps">More Apps</string>
+    <string name="str_nav_setting">Setting</string>
+
+    <!-- ========= MENU SETTING ========================================================= -->
+    <string name="setting_color">Theme Color</string>
+    <string name="setting_rate_app">Rate This App</string>
+    <string name="setting_about_text">About</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- ========= ACTIVITY TITLE ====================================================== -->
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_text">This is English-Indonesia dictionary app</string>
+    <string name="title_activity_main">Menu</string>
+
+    <!-- ========= Copyright Text ======================================================= -->
+    <string name="copyright_splash_text">Copyright \u00a9 Company</string>
+
+    <!-- ========= DATABASE ============================================================= -->
+    <string name="db_name">database.sqlite</string>
+    <string name="db_name_user">database_user.sqlite</string>
+
+    <!-- to upgrade database.sqlite you need to increment this version -->
+    <integer name="db_version">1</integer>
+
+    <string name="table1_ind_en">table_ind_en</string>
+    <string name="table2_en_ind">table_en_ind</string>
+    <string name="column1_edited">edited</string>
+    <string name="column2_favorites">favorites</string>
+    <string name="column3_id">_id</string>
+    <string name="column4_word">word</string>
+    <string name="column5_result">result</string>
+
+    <!-- Share url to your app -->
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.my.dictionary</string>
+
+</resources>
